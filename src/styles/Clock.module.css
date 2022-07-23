@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@300&display=swap");
+
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+  margin-right: 3rem;
+  height: auto;
+  margin-top: 2rem;
+}
+
+.time {
+  color: white;
+  font-size: 3.2rem;
+  font-family: "Kantumruy Pro";
+}
+
+.date {
+  color: white;
+  font-size: 1rem;
+  margin-top: -3rem;
+}
+
+
+@media (min-width: 481px) and (max-width: 1024px) {
+    .container{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: auto;
+    }
+}
+@media (max-width: 480px) {
+  /* .container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    margin-top: -1rem;
+  }
+  .time{
+    font-size: 2rem;
+  }
+  .date{
+    margin-top: -2rem;
+  } */
+  .container{
+    display: none;
+  }
+}

@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+
+.nav{
+  display: flex;
+  justify-content:space-around;
+  flex-direction: row;
+  margin-top: 2rem;
+  margin-right: auto;
+  align-items: center;
+} 
+
+
+.home{
+    border: solid 2px transparent;
+    border-radius: 9999px;
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    transition: background-color 0.25s;
+    cursor: pointer;
+    color: white;  
+    text-decoration: none;
+}
+
+.textHome{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color:white;
+  font-family: 'Dancing Script';
+  font-size: 2rem;
+  text-decoration: none;
+  /* font-family:'Lobster'; */
+}
+.textAbout{
+  font-family: 'Josefin Sans';
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  border: solid 2px transparent;
+  width: 4rem;
+  height: 1.5rem;
+  border-radius: 6px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  background-color: transparent;
+  transition: background-color 0.25s;
+  color: white;
+  padding-top: 3px;
+}
+.textAbout:hover{
+  background-color: #ffffff60;
+}
+
+
+@media (min-width: 481px) and (max-width: 1024px) {
+  .nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    margin: 10px;
+    margin-top: 2rem;
+    
+  }
+  .textHome{
+    font-size: 3.5rem;
+  }
+ 
+}  
+
+@media (max-width: 480px){
+  .nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    margin: 10px;
+    margin-top: 2rem;
+    
+  }
+  .textHome{
+    font-size: 2rem;
+  }
+ 
+}  
